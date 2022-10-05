@@ -1,0 +1,37 @@
+.header{
+    background-color: rgba(158, 158, 158, 0.2);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 140px;
+   
+}
+
+.header a{
+    color: #1a1919;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.header a:hover{
+    color: #f85606;
+    text-decoration:underline;
+
+} 
+
+.logo{
+    display: flex;
+    align-items: center;
+   
+}
+
+.logo img{
+    height: 60px;
+}
+
+.logo p{
+    color: #f85606;
+}
+
