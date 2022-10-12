@@ -3,9 +3,9 @@ import logo from '../../images/orange.png'
 import './Header.css'
 
 const Header = () => {
-  
+
     return (
-        
+
         <nav className='header'>
 
             <div className='logo'>
@@ -13,6 +13,7 @@ const Header = () => {
                 <p><span style={{ fontSize: '30px' }}>O</span>ranGe</p>
             </div>
             <div>
+                <a href="/home">HOME</a>
                 <a href="/shop">SHOP</a>
                 <a href="/orders">TRACK MY ORDER</a>
                 <a href="/inventory">INVENTORY</a>
